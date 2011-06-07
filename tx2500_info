@@ -1,0 +1,12 @@
+
+detect_hardware()
+{
+	case "`cat /sys/class/dmi/id/product_name`" in
+		*tx2500*)
+			return 1
+			;;
+		*)
+			error WARNING: Not a HP tx2500
+			;;
+	esac
+}
