@@ -1,0 +1,3 @@
+on boot
+    write /sys/class/drm/card0/device/power_method profile
+    write /sys/class/drm/card0/device/power_profile mid
