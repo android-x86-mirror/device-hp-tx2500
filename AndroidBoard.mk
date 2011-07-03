@@ -1,7 +1,7 @@
 LOCAL_PATH := $(call my-dir)
 
-#LOCAL_FIRMWARES_DIR := $(LOCAL_PATH)/firmware
-LOCAL_FIRMWARES := radeon/R600_rlc.bin #radeon/RS780_me.bin radeon/RS780_pfp.bin
+
+LOCAL_FIRMWARES := $(subst $(LOCAL_PATH)/../../common/firmware/,,$(shell find $(LOCAL_PATH)/../../common/firmware/radeon -type f)) 
 
 TARGET_INITRD_SCRIPTS := $(LOCAL_PATH)/tx2500_info
 TARGET_KERNEL_CONFIG := $(LOCAL_PATH)/tx2500_minimal
