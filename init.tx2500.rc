@@ -1,3 +1,8 @@
 on boot
     write /sys/class/drm/card0/device/power_method profile
     write /sys/class/drm/card0/device/power_profile mid
+
+    setkeycode 0xb1 138
+    setkeycode 0x8a 152
+    setkeycode 0x8e 389
+    setkeycode 0x88 226
