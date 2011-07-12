@@ -6,3 +6,6 @@ on boot
     setkeycode 0x8a 152
     setkeycode 0x8e 389
     setkeycode 0x88 226
+
+service delayedinit /system/init.sh
+    oneshot
