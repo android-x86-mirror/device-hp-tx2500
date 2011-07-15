@@ -9,4 +9,4 @@ PRODUCT_MANUFACTURER := HP
 
 DEVICE_PACKAGE_OVERLAYS := $(LOCAL_PATH)/overlays
 PRODUCT_COPY_FILES := \
-	$(LOCAL_PATH)/init.sh:system/init.sh
+	$(LOCAL_PATH)/init.sh:system/etc/init.sh
