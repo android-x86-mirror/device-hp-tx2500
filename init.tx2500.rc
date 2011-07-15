@@ -1,4 +1,6 @@
 on boot
+    chown system system /sys/class/backlight/acpi_video0/brightness
+
     write /sys/class/drm/card0/device/power_method profile
     write /sys/class/drm/card0/device/power_profile mid
 
