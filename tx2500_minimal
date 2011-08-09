@@ -1,7 +1,7 @@
 #
 # Automatically generated make config: don't edit
 # Linux/i386 2.6.39 Kernel Configuration
-# Mon Aug  8 10:18:46 2011
+# Tue Aug  9 11:51:23 2011
 #
 # CONFIG_64BIT is not set
 CONFIG_X86_32=y
@@ -1729,6 +1729,7 @@ CONFIG_AGP_AMD64=y
 # CONFIG_VGA_ARB is not set
 # CONFIG_VGA_SWITCHEROO is not set
 CONFIG_DRM=m
+CONFIG_NO_GPU_AUTHENTICATION=y
 CONFIG_DRM_KMS_HELPER=m
 CONFIG_DRM_TTM=m
 # CONFIG_DRM_TDFX is not set
