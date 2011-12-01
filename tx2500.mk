@@ -1,5 +1,4 @@
 PRODUCT_PACKAGES := $(THIRD_PARTY_APPS)
-PRODUCT_KEYMAPS := $(wildcard $(LOCAL_PATH)/keymaps/*.kcm)
 
 $(call inherit-product,$(SRC_TARGET_DIR)/product/generic_x86.mk)
 
