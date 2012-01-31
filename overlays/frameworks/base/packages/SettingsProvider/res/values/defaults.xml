@@ -17,16 +17,11 @@
  */
 -->
 <resources>
-    <integer name="def_screen_off_timeout">1800000</integer>
+    <integer name="def_screen_off_timeout">300000</integer>
     <bool name="def_accelerometer_rotation">false</bool>
     <bool name="def_haptic_feedback">false</bool>
     <bool name="def_install_non_market_apps">true</bool>
     <bool name="assisted_gps_enabled">false</bool>
     <bool name="def_notification_pulse">false</bool>
     <bool name="def_vibrate_in_silent">false</bool>
-
-   <!--  not implemented yet
-    <bool name="def_ethernet_on">false</bool>
-    <bool name="def_vibrate_on">false</bool>
-    <bool name="disable_power_off_confirmation">true</bool> -->
 </resources>
