@@ -1,15 +1,18 @@
-key 1     BACK              WAKE
+key 1     ESCAPE            WAKE
 
-key 59    HOME              WAKE
+key 59    APP_SWITCH        WAKE
 key 138   NOTIFICATION      WAKE
-key 60    MENU              WAKE
+key 60    F2                WAKE
 key 61    SEARCH            WAKE
 key 172   EXPLORER          WAKE
-#key 62    F4                WAKE
-#key 227   fn-F4             WAKE
+key 62    F4                WAKE
+key 227   CLEAR             WAKE
 
-key 63    ENDCALL           WAKE_DROPPED
+key 63    F5                WAKE_DROPPED
 key 142   ENDCALL           WAKE_DROPPED
+key 64    F6                WAKE_DROPPED
+key 65    F7                WAKE_DROPPED
+key 66    F8                WAKE_DROPPED
 
 key 67    MEDIA_PLAY_PAUSE     WAKE_DROPPED
 key 164   MEDIA_PLAY_PAUSE     WAKE_DROPPED

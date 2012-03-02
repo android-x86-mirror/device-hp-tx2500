@@ -6,9 +6,9 @@ on boot
     setkeycode 0x8e 389
     setkeycode 0x88 226
 
-service userinit /system/bin/sh /system/etc/init.sh
+service devinit /system/bin/sh /system/etc/tx2500.sh
     oneshot
     disabled
 
 on property:dev.bootcomplete=1
-    start userinit
+    start devinit
