@@ -1,0 +1,2 @@
+dev_mount reader  /mnt/CardReader  auto /devices/pci0000:00/0000:00:12.2/usb1/1-4/1-4:1.0
+dev_mount usb     /mnt/USB         auto
