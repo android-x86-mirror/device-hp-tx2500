@@ -1,4 +1,4 @@
-key 1     ESCAPE            WAKE
+key 1     BACK              WAKE
 
 key 59    APP_SWITCH        WAKE
 key 138   NOTIFICATION      WAKE
