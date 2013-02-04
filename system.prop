@@ -1,3 +1,4 @@
 # system.prop for tx2500
 ro.sf.lcd_density=160
+hal.sensors.kbd.type=3
 # end system.prop for tx2500
