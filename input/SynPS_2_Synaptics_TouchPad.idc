@@ -30,3 +30,4 @@ touch.size.calibration = default
 
 # Orientation
 touch.orientation.calibration = none
+touch.orientationAware = 1
