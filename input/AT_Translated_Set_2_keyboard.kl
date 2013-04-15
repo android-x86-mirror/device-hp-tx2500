@@ -33,7 +33,7 @@ key 107   MOVE_END          WAKE_DROPPED
 key 69    NUM_LOCK          WAKE_DROPPED
 
 key 110   INSERT            WAKE_DROPPED
-key 111   DEL               WAKE_DROPPED
+key 111   FORWARD_DEL       WAKE_DROPPED
 key 99    SYSRQ             WAKE_DROPPED
 
 key 41    GRAVE             WAKE_DROPPED
